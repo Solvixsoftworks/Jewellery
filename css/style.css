@@ -223,6 +223,7 @@ nav {
 .dropdown-menu li a:hover {
     background-color: rgba(214, 51, 132, 0.1);
     color: #D63384;
+		border-radius: 50px;
 }
 
 .auth-buttons {
@@ -1427,24 +1428,27 @@ width:100%;
 
 	display: flex;
 	align-items:center;
-
 	justify-content: center;
 	gap: 15px;
-	padding: 0 20px;
-	margin-top: 50px;
+	padding: 0 10px;
+	margin-top: 20px;
 	margin-bottom: 50px;
   }
   
-
+.stats-wrapper img{
+	border-radius: 50%;
+	width: 45px;
+	margin-left: 55px;
+}
   .stats-container {
-	width: 28vmin;
-	height: 28vmin;
+	width: 30vmin;
+	height: 30vmin;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
 	margin-left: 50px;
-	gap: 15px;
-	padding: 1em 0;
+	gap: 0px;
+	padding: 5px 0;
 	font-size: 16px;
 	border-radius: 0.8em;
 	background-color: #f4f4f4;
@@ -1476,11 +1480,6 @@ width:100%;
 	color: #b08d57; 
 	transform: rotate(15deg);
   }
-
-  .stats-icon {
-	color: #b08d57; 
-	font-size: 3em;
-  }
   
   .stats-number {
 	color: #000000;
@@ -1494,7 +1493,7 @@ width:100%;
 	color: #333;
 	font-size: 1.1em;
 	text-align: center;
-	padding: 0.7em 0;
+	padding:5px 0;
 	font-weight: 400;
 	line-height: 1.2;
   }
